@@ -2,8 +2,8 @@ Welcome to the Fabric Workshop wiki page. This page contains all of the links yo
  
 ## Links
  
-* This page: [https://aka.ms/fabric-toronto](https://aka.ms/fabric-toronto)
-* Eval Form for End of Day: [Fabric Event Eval](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR5UnTHndg5dHvqF4p45wkjZUOUI3TUdTODlRTVM0NEtVOE02R0ROTk5HNy4u&origin=QRCode&qrcodeorigin=presentation)
+* This page: [aka.ms/fabric-sp](https://aka.ms/fabric-sp)
+* Eval Form for End of Day: [Fabric Event Eval](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR5UnTHndg5dHvqF4p45wkjZURFZONzBXNUtTNzZRWEpSV0VLRURXSlM3Ti4u&origin=QRCode&qrcodeorigin=presentation)
  
 Portals:
 * Azure Portal: [https://portal.azure.com](https://portal.azure.com)
