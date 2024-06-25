@@ -31,7 +31,7 @@ Bem-vindo à página wiki do Fabric Workshop. Esta página contém todos os link
 * [Fabric Featured Partner](https://aka.ms/FabricFeaturedPartners)
 * [How to become a Microsoft Featured Partner](https://aka.ms/HowToBecomeFFP)
  
-**Alguns highlights sobre o Fabric no Build** [Build](https://build.microsoft.com):
+**Alguns highlights sobre o Fabric no**[Build](https://build.microsoft.com):
 * [Microsoft Fabric: What's new and what's next](https://build.microsoft.com/en-US/sessions/e2dadf62-d982-4467-9c5c-fd232d663783?source=sessions)
 * [Reimagine Real-Time Intelligence with Microsoft Fabric](https://build.microsoft.com/en-US/sessions/2b5c3675-36e7-4d70-bf4e-3d98c913a018?source=sessions)
 * [The mechanics of Real-Time Intelligence in Microsoft Fabric](https://build.microsoft.com/en-US/sessions/514d3926-7f9a-412b-a095-93d6e5df0bca?source=sessions)
@@ -51,54 +51,52 @@ Existem algumas alterações nos laboratórios que são abordadas nas notas abai
  
 ## LAB 01: Ingesting Data using RTA
  
-After launching the lab, retrieve your username and password from the Resources tab and keep them handy (such as in a local notepad window). The Azure promo code is used to activate an Azure trial environment. You may use the VM provided in the lab and/or log in using your own browser:
- 
-![image](https://github.com/bhitney/TalkNotes/assets/2793422/3021ecc2-208b-4ce6-8a5e-7bd6f7a8c2e5)
- 
 ### Exercise 1: Environment Setup
  
-The data generator app we've built uses a container and Event Hub that is deployed in Azure. If you'd like to deploy this yourself, you can do so either using your own Azure subscription (~$1.70/day), or redeem an Azure Pass free trial using the promo code on the Resources tab. However, to help streamline the day, we've deployed the generator for the group, so you will not need Azure access if you'd like to use the group Event Hub. Connection details are included here -- each attendee is assigned a Consumer Group.
+A aplicação responsável por gerar os dados que vamos utilizar nesse laboratório usa um Azure Container Instance e um Event Hub, ambos já estão implatados no Azure. Porem, se você quiser implantar isso por conta própria, poderá fazê-lo usando sua própria assinatura do Azure (cerca de US$ 1,70/dia) ou utilizar uma avaliação gratuita do Azure Pass usando o código promocional que está disponível na guia Recursos. No entanto, para ajudar a simplificar, você pode utilizar a aplicação que já está executando, você não precisará de acesso ao Azure. Os detalhes da conexão estão incluídos aqui - cada participante é atribuído a um Consumer Group.
  
-If you are using the group Event Hub, you only need to do these Tasks in the module:
+Se estiver usando o Event Hub do grupo, você só precisará executar essas tarefas abaixo:
+
+* **Tarefa 1: Faça login na conta do Power BI e inscreva-se para a avaliação gratuita do Microsoft Fabric**
+* **Tarefa 2: Iniciar a avaliação do Microsoft Fabric**
+* Pular a tarefa 3: resgatar o Azure Pass
+* Pular a tarefa 4: atribuição de função de colaborador do Log Analytics
+* Pular a tarefa 5: criar conta de armazenamento
+* **Tarefa 6: Criar a workspace do Fabric**
+  * Ao nomear sua workspace, você provavelmente precisará tornar o nome globalmente exclusivo. Em vez de "RealTimeWorkspace", adicione suas iniciais, seu primeiro nome ou altere o nome como achar melhor. Todos os itens do workshop de hoje irão para essa workspace.
+* Pular a tarefa 7: implantar o aplicativo por meio da instância de contêiner do Azure
+* **Tarefa 8: Obter dados com o Eventstream**
  
-* **Task 1: Sign in to Power BI account and sign up for the free Microsoft Fabric trial**
-* **Task 2: Start the Microsoft Fabric trial**
-* Skip Task 3: Redeem Azure Pass
-* Skip Task 4: Log Analytics Contributor role assignment
-* Skip Task 5: Create Storage Account
-* **Task 6: Create Fabric Workspace**
-  * When naming your workspace, you will likely need to make the name globally unique. Instead of "RealTimeWorkspace", add your initials, firstname, or change the name as you see fit. All items from the workshop today will go into this workspace.
-* Skip Task 7: Deploy the app via Azure Container Instance
-* **Task 8: Get data with Eventstream**
+Se você quiser implantar o aplicativo gerador de ações por conta própria, siga estas etapas:
  
-If you'd like to deploy the stock generator app yourself, follow these steps:
+* **Tarefa 1: Entre na conta do Power BI e inscreva-se para a avaliação gratuita do Microsoft Fabric**
+* Tarefa 2: Iniciar a avaliação do Microsoft Fabric
+* Tarefa 3: Resgatar o Azure Pass
+* Pular a tarefa 4: Atribuição de função de colaborador do Log Analytics
+* Pular a tarefa 5: criar conta de armazenamento
+* Tarefa 6: Criar a workspace do Fabric
+  * Ao nomear sua workspace, você provavelmente precisará tornar o nome globalmente exclusivo. Em vez de "RealTimeWorkspace", adicione suas iniciais, seu primeiro nome ou altere o nome como achar melhor. Todos os itens do workshop de hoje irão para essa workspace.
+* **Tarefa 7: Implantar o aplicativo por meio da Instância de Contêiner do Azure**
+* Tarefa 8: Obter dados com o Eventstream
+
+
  
-* **Task 1: Sign in to Power BI account and sign up for the free Microsoft Fabric trial**
-* **Task 2: Start the Microsoft Fabric trial**
-* **Task 3: Redeem Azure Pass**
-* Skip Task 4: Log Analytics Contributor role assignment
-* Skip Task 5: Create Storage Account
-* **Task 6: Create Fabric Workspace**
-  * When naming your workspace, you will likely need to make the name globally unique. Instead of "RealTimeWorkspace", add your initials, firstname, or change the name as you see fit. All items from the workshop today will go into this workspace.
-* **Task 7: Deploy the app via Azure Container Instance**
-* **Task 8: Get data with Eventstream**
- 
-In **Task 6**, give the Workspace a unique name, such as "Workshop-initials" or similar:
+Na **Tarefa 6**, dê um nome exclusivo para a workspace, como "Workshop-initials" ou algo semelhante:
  
 ![image](https://github.com/bhitney/TalkNotes/assets/2793422/467d5e14-36aa-4862-ab45-5ab3d5e214c6)
  
-In **Task 8**, be sure to do the following:
-* Use the following Event Hub connection details:
+Na **Tarefa 8**, certifique-se de fazer o seguinte:
+* Use os seguintes detalhes de conexão do Event Hub:
  
 | Setting | Value|
 | -------- | ------- |
-| Event Hub namespace| **ehns-toronto-fabricworkshop** |
+| Event Hub namespace| **ehns-spbrazil-fabricworkshop** | 
 | Event Hub| **stockeventhub** |
 | SAS Name| **stockeventhub_sas** |
-| SAS Key| **9TR249DduSgW0hgHucZEwNFVCQ+GOhK1H+AEhHxJpUE=** |
-| Consumer Group | Individually assigned, see handout |
+| SAS Key| **E7wLz2Qi2qyiZl8WFLMP/vQro+/PppxFf+AEhIq2MYU=** |
+| Consumer Group | Atribuído individualmente |
  
-* Delete the default Connection Name and provide a unique name in the textbox, such as *EventHub-Connection-{initials}* or similar:
+* Exclua o nome de conexão padrão e forneça um nome exclusivo na caixa de texto, como *EventHub-Connection-{initials}* ou similar::
  
 ![image](https://github.com/bhitney/TalkNotes/assets/2793422/4e093598-c03b-4b1b-b07e-a3916c7542a1)
  
