@@ -41,7 +41,7 @@ Bem-vindo à página wiki do Fabric Workshop. Esta página contém todos os link
  
 Note: in today's workshop, we are skipping **Lab 03: Building a DW using Pipelines**.
  
-![image](https://github.com/bhitney/TalkNotes/assets/2793422/b2dc58b3-5666-4817-9b00-b949480bedf5)
+![image](https://github.com/lesantana/talknotes/blob/main/agenda.png?raw=true)
  
 ***
  
