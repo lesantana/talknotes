@@ -1,23 +1,25 @@
-Welcome to the Fabric Workshop wiki page. This page contains all of the links you will need for today's content, plus any changes/workarounds that may be needed. We hope you enjoy the day!
+# Fabric Workshop -  São Paulo
+
+Bem-vindo à página wiki do Fabric Workshop. Esta página contém todos os links de que você precisará para o conteúdo de hoje, além de quaisquer alterações ou soluções alternativas que possam ser necessárias. Esperamos que você aproveite o dia!
  
 ## Links
  
-* This page: [aka.ms/fabric-sp](https://aka.ms/fabric-sp)
-* Eval Form for End of Day: [Fabric Event Eval](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR5UnTHndg5dHvqF4p45wkjZURFZONzBXNUtTNzZRWEpSV0VLRURXSlM3Ti4u&origin=QRCode&qrcodeorigin=presentation)
+* Link desta página: [aka.ms/fabric-sp](https://aka.ms/fabric-sp)
+* Feedback: [Feedback](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR5UnTHndg5dHvqF4p45wkjZURFZONzBXNUtTNzZRWEpSV0VLRURXSlM3Ti4u&origin=QRCode&qrcodeorigin=presentation)
  
-Portals:
+**Portais:**
 * Azure Portal: [https://portal.azure.com](https://portal.azure.com)
 * Fabric Portal: [https://app.fabric.microsoft.com](https://app.fabric.microsoft.com)
  
-Content Origin (for reference, outside of lab):
+**Conteúdo Original:**
 * Original GitHub repo with Labs: [https://aka.ms/fabricrealtimelab](https://aka.ms/fabricrealtimelab)
 * Resources Zip File (notebooks): [https://aka.ms/fabricrealtimelab-resources](https://aka.ms/fabricrealtimelab-resources)
  
-Lab Access and Information:
+**Acesso ao laboratório:**
 * Registering for labs: [https://cloudweeks.learnondemand.net](https://cloudweeks.learnondemand.net/)
 * Key: 75ACD06FC7824114
  
-Partner Resources:
+**Conteúdos de Fabric para Parceiros:**
 * [Microsoft Fabric Partner Community](https://aka.ms/JoinFabricPartnerCommunity)
 * [Learn Fabric](https://aka.ms/learn-fabric)
 * [Fabric Bootcamp](https://aka.ms/azuredepthworkshops)
@@ -29,7 +31,7 @@ Partner Resources:
 * [Fabric Featured Partner](https://aka.ms/FabricFeaturedPartners)
 * [How to become a Microsoft Featured Partner](https://aka.ms/HowToBecomeFFP)
  
-Highlights from [Build](https://build.microsoft.com):
+**Alguns highlights sobre o Fabric no Build** [Build](https://build.microsoft.com):
 * [Microsoft Fabric: What's new and what's next](https://build.microsoft.com/en-US/sessions/e2dadf62-d982-4467-9c5c-fd232d663783?source=sessions)
 * [Reimagine Real-Time Intelligence with Microsoft Fabric](https://build.microsoft.com/en-US/sessions/2b5c3675-36e7-4d70-bf4e-3d98c913a018?source=sessions)
 * [The mechanics of Real-Time Intelligence in Microsoft Fabric](https://build.microsoft.com/en-US/sessions/514d3926-7f9a-412b-a095-93d6e5df0bca?source=sessions)
@@ -45,7 +47,7 @@ Note: in today's workshop, we are skipping **Lab 03: Building a DW using Pipelin
  
 ## Lab Notes
  
-There are several changes in the labs that are covered in these notes below.
+Existem algumas alterações nos laboratórios que são abordadas nas notas abaixo.
  
 ## LAB 01: Ingesting Data using RTA
  
