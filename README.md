@@ -17,7 +17,8 @@ Bem-vindo à página wiki do Fabric Workshop. Esta página contém todos os link
  
 **Acesso ao laboratório:**
 * Registering for labs: [https://cloudweeks.learnondemand.net](https://cloudweeks.learnondemand.net/)
-* Key: 75ACD06FC7824114
+* Key: `2D1C120CA9F94DD2`
+
  
 **Conteúdos de Fabric para Parceiros:**
 * [Microsoft Fabric Partner Community](https://aka.ms/JoinFabricPartnerCommunity)
