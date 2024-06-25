@@ -104,7 +104,7 @@ Na **Tarefa 8**, certifique-se de fazer o seguinte:
  
 #### Task 1: Create KQL Database
  
-As part of the new Real-Time Intelligence features, all KQL databases are part of an EventHouse. Some screenshots may not have been updated.
+Como parte dos novos recursos de Real-Time Intelligence, todos os bancos de dados KQL fazem parte de um EventHouse. Algumas capturas de tela podem não ter sido atualizadas.
  
 ![image](https://github.com/bhitney/TalkNotes/assets/2793422/6860198d-ef85-4f41-a933-cfe45e611977)
  
@@ -118,23 +118,23 @@ No additional notes at this time.
  
 ## Lab 03: Building a DW using Pipelines
  
-Please skip this lab for today's workshop. (Of course, you are free to work on this if time permits or outside of the lab!)
+Este é um laboratório opcional. É claro que você pode trabalhar nele se o tempo permitir ou fora do laboratório!)
  
 ***
  
 ## Lab 04: Building a Data Lakehouse
  
-When working with the notebook **Lakehouse 2: Build Aggregation Tables**, many steps focus on using Data Activator to help shape and aggregate the data. Data Wrangler is a visual tool that outputs Python code into a new notebook cell. If you'd like to save time, each of the 3 Data Wrangler steps has been completed and is commented out, and should look like the below image:
+Ao trabalhar com o notebook **Lakehouse 2: Build Aggregation Tables**, muitas etapas se concentram no uso do Data Activator para ajudar a formatar e agregar os dados. O Data Wrangler é uma ferramenta visual que gera código Python em uma nova célula do notebook. Se você quiser economizar tempo, cada uma das três etapas do Data Wrangler foi concluída e está comentada, e deve se parecer com a imagem abaixo:
  
 ![image](https://github.com/bhitney/TalkNotes/assets/2793422/60655d53-d012-478e-9229-4e5abdf348ff)
  
-If you'd prefer to avoid going through the Data Wrangler steps or run into any challenges, you can use the code in the commented cell. Highlight all of the code in the cell (**CTRL-A**) and then uncomment all of the code (**CTRL-/**). This can be done for any or all of the Data Wrangler steps.
+Se você preferir evitar passar pelas etapas do Data Wrangler ou enfrentar qualquer desafio, poderá usar o código na célula comentada. Destaque todo o código na célula (**CTRL-A**) e, em seguida, descomente todo o código (**CTRL-/**). Isso pode ser feito para qualquer uma ou todas as etapas do Data Wrangler.
  
 ***
  
 ## Lab 05: Getting Started with Building a ML Model in Fabric
  
-There are 3 notebooks used in this lab:
+Existem 3 notebooks usados neste laboratório:
  
 | Notebook | Purpose |
 | -------- | ------- |
@@ -142,8 +142,8 @@ There are 3 notebooks used in this lab:
 | DS 2 - Predict Stock Prices | Consume MLflow from a notebook |
 | DS 3 - Forecast All | Build predictions for all stock symbols and store in a Delta table |
  
-DS 1 and DS 2 are largely examples/theory of how to work with data, evaluate the results, and store the model in MLflow. DS 3 is the main notebook that generates predictions for all stocks and stores the results in the **stocks_prediction** table.
+O DS 1 e o DS 2 são, em grande parte, exemplos/teoria de como trabalhar com dados, avaliar os resultados e armazenar o modelo no MLflow. O DS 3 é o notebook principal que gera previsões para todas as ações e armazena os resultados na tabela **stocks_prediction**.
  
-To save time: if you're primarily interested in data analysis and setting up experiments and comparing runs in MLflow, focus on DS 1 and DS 2. If you're more interested in getting the predictions and building a semantic model and report, consider jumping right to DS 3 (which is **Exercise 3: Solution in practice** in the lab).
+Para economizar tempo: se você estiver interessado principalmente na análise de dados, na configuração de experimentos e na comparação de execuções no MLflow, concentre-se no DS 1 e no DS 2. Se estiver mais interessado em obter as previsões e criar um modelo semântico e um relatório, considere pular diretamente para o DS 3 (que é o **Exercício 3: Solução na prática** no laboratório).
  
 ![image](https://github.com/bhitney/TalkNotes/assets/2793422/f40d2b5a-43b0-4f9f-91fc-49f223360d85)
