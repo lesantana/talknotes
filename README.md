@@ -91,10 +91,10 @@ Na **Tarefa 8**, certifique-se de fazer o seguinte:
  
 | Setting | Value|
 | -------- | ------- |
-| Event Hub namespace| **ehns-spbrazil-fabricworkshop** | 
-| Event Hub| **stockeventhub** |
-| SAS Name| **stockeventhub_sas** |
-| SAS Key| **E7wLz2Qi2qyiZl8WFLMP/vQro+/PppxFf+AEhIq2MYU=** |
+| Event Hub namespace| **-----------** | 
+| Event Hub| **---------------** |
+| SAS Name| ** ------------** |
+| SAS Key| **-----------------=** |
 | Consumer Group | Atribuído individualmente |
  
 * Exclua o nome de conexão padrão e forneça um nome exclusivo na caixa de texto, como *EventHub-Connection-{initials}* ou similar::
